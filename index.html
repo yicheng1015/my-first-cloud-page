@@ -232,7 +232,7 @@ const CUSTOMER_LIST = [
   ["CUST-1040", "微星多媒體室"], ["CUST-1041", "彭思涵"], ["CUST-1042", "簡銘成"],
   ["CUST-1043", "潘郁婷"], ["CUST-1044", "柯宗憲"], ["CUST-1045", "翁淑真"],
   ["CUST-1046", "戴育德"], ["CUST-1047", "江佩芳"], ["CUST-1048", "顏立威"],
-  ["CUST-1049", "蕭雅涵"], ["CUST-1050", "范明達"]
+  ["CUST-1049", "蕭雅涵"], ["CUST-1050", "范明達"], ["CUST-1051", "劉懿誠"]
 ];
 
 function initData() {
@@ -245,7 +245,7 @@ function initData() {
     customerMap.set(name, id.toUpperCase());
   });
 
-  let seed = 42;
+  let seed = 1015;
   function rand() {
     seed = (seed * 9301 + 49297) % 233280;
     return seed / 233280;
